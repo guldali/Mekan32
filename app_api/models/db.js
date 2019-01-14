@@ -1,5 +1,5 @@
 var mongoose = require( 'mongoose' );
-var dbURI = 'mongodb://guldali:guldali.97@ds157064.mlab.com:57064/mekanbul';
+var dbURI = 'mongodb://isim:database-sifresi@ds157064.mlab.com:57064/mekanbul';
 //var dbURI = 'mongodb://localhost/mekanbul'; // localhost için tamam burada hoca eklemiş sağolsun :D 
 
 mongoose.connect(dbURI, { 'useMongoClient': true }); 
